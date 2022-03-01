@@ -1,11 +1,13 @@
 import pymeshlab
 import os
+import sys
 ms = pymeshlab.MeshSet()
 
 
-importDirectory = 'D:\Documents\Cell_DAEs\MorphrenderFiles\RPC1\RodBCs'
-exportDirectory = 'D:\Documents\Cell_DAEs\MeshlabExports\RPC1\RodBCs'
+importDirectory = sys.argv[1]
+exportDirectory = sys.argv[2]
 files=[]
+
  
 for filename in os.listdir(importDirectory):
     f = os.path.join(importDirectory, filename)
