@@ -14,6 +14,9 @@ if __name__=='main':
 
     install_requires= ["pymeshlab"]
 
+    classifiers = ['Programming Language :: Python :: 3.7',
+                   'Topic :: Scientific/Engineering']
+
     setup(name = 'MorphrenderAddOns',
         version = '1.0',
         description= "MeshLab filters for dae files",
