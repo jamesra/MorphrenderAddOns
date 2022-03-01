@@ -5,10 +5,11 @@ Created on March 1, 2022
 '''
 
 from ez_setup import use_setuptools
-from setuptools import setup, find_packages
+
 
 if __name__=='main':
     use_setuptools()
+    from setuptools import setup, find_packages
 
     packages = find_packages()
 
