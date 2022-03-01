@@ -18,7 +18,7 @@ if __name__=='main':
     classifiers = ['Programming Language :: Python :: 3.7',
                    'Topic :: Scientific/Engineering']
 
-    setup(name = 'MorphrenderAddOns',
+    setup(name = 'morphrender_addons',
         version = '1.0',
         description= "MeshLab filters for dae files",
         author =' Rebecca Pfeiffer',
