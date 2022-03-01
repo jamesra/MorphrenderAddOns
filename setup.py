@@ -13,7 +13,7 @@ if __name__=='main':
 
     packages = find_packages()
 
-    install_requires= ["pymeshlab"]
+    #install_requires= ["pymeshlab"]
 
     classifiers = ['Programming Language :: Python :: 3.7',
                    'Topic :: Scientific/Engineering']
